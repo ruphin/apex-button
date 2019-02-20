@@ -7,10 +7,8 @@
   "author": "Goffert van Gool",
   "license": "MIT",
   "scripts": {
-    "build": "cp src/*.js . && rollup -c",
     "dev": "browser-sync start --config browsersync.config.js",
-    "release": "np",
-    "test": "mocha"
+    "release": "np"
   },
   "dependencies": {
     "lit-html": "1.0.0",
