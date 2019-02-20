@@ -6,14 +6,6 @@ dev:
 shell:
 	docker run -it --rm -v $$PWD:/app ruphin/webdev bash
 
-.PHONY: test
-test:
-	docker run -it --rm -v $$PWD:/app ruphin/webdev npm run test
-
-.PHONY: build
-build:
-	docker run -it --rm -v $$PWD:/app ruphin/webdev npm run build
-
 .PHONY: release
 release:
 	docker run -v $$PWD:/app \
