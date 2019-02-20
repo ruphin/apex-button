@@ -1,0 +1,26 @@
+<script>
+  window.modulesAssetPath = module => `/node_modules/${module}`;
+</script>
+
+<script type="module" src="/button.js"></script>
+
+<apex-button><span>nested</span></apex-button>
+<apex-button topbar cta>focus</apex-button>
+<apex-button topbar>topbar</apex-button>
+
+<form>
+  <apex-button><button>formbutton</button></apex-button>
+</form>
+
+<div id="test"></div>
+
+<span id="browser-sync-binding"></span>
+
+<style>
+  body {
+    background: #28364f;
+  }
+  apex-button {
+    margin: 10px;
+  }
+</style>

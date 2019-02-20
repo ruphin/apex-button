@@ -1,0 +1,23 @@
+{
+  "name": "@apex-elements/button",
+  "version": "0.0.0",
+  "description": "The Apex Legends button",
+  "main": "fonts.js",
+  "repository": "git@github.com:ruphin/apex-button.git",
+  "author": "Goffert van Gool",
+  "license": "MIT",
+  "scripts": {
+    "build": "cp src/*.js . && rollup -c",
+    "dev": "browser-sync start --config browsersync.config.js",
+    "release": "np",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "lit-html": "1.0.0",
+    "@apex-elements/fonts": "0.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "2.26.3",
+    "np": "4.0.2"
+  }
+}
