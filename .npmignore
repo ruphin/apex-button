@@ -1,5 +1,4 @@
 Makefile
-examples
 .prettierignore
 .travis.yml
 browsersync.config.js

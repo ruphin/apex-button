@@ -6,6 +6,9 @@
   "repository": "git@github.com:ruphin/apex-button.git",
   "author": "Goffert van Gool",
   "license": "MIT",
+  "keywords": [
+    "web-components"
+  ],
   "scripts": {
     "dev": "browser-sync start --config browsersync.config.js",
     "release": "np"

@@ -14,7 +14,7 @@ module.exports = {
     }
   },
   server: {
-    baseDir: ['examples', '.', 'node_modules']
+    baseDir: ['demo', '.', 'node_modules']
   },
   files: ['*.js', 'examples/*.html']
 };
