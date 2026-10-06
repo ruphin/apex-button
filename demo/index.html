@@ -1,8 +1,8 @@
 <script>
-  window.modulesAssetPath = module => `/${module}`;
+  window.modulesAssetPath = module => `/node_modules/${module}`;
 </script>
 
-<script type="module" src="../button.js"></script>
+<script type="module" src="/button.js"></script>
 
 <apex-button><span>nested</span></apex-button>
 <apex-button topbar cta>focus</apex-button>
@@ -14,7 +14,6 @@
 
 <div id="test"></div>
 
-<span id="browser-sync-binding"></span>
 
 <style>
   body {

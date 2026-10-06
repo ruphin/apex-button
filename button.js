@@ -23,8 +23,8 @@
  * SOFTWARE.
  */
 
-import { html, render } from '../../lit-html/lit-html.js';
-import '../../@apex-elements/fonts/fonts.js';
+import { html, render } from 'lit-html';
+import '@apex-elements/fonts/fonts.js';
 
 const style = html`
   <style>
